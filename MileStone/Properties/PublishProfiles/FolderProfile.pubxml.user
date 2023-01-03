@@ -1,0 +1,1417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Publice Web Project\MileStone</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Angularjs/angular.min.js">
+      <publishTime>11/22/2022 14:52:35</publishTime>
+    </File>
+    <File Include="Angularjs/Home.js">
+      <publishTime>11/23/2022 12:25:29</publishTime>
+    </File>
+    <File Include="Angularjs/toast-alert/toastr.css">
+      <publishTime>11/22/2022 15:09:34</publishTime>
+    </File>
+    <File Include="Angularjs/toast-alert/toastr.js">
+      <publishTime>11/22/2022 15:09:34</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/MileStone.dll">
+      <publishTime>11/23/2022 16:23:19</publishTime>
+    </File>
+    <File Include="bin/MileStone.pdb">
+      <publishTime>11/23/2022 16:23:19</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>02/18/2018 09:44:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>02/01/2018 12:16:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>02/01/2018 12:16:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 13:57:34</publishTime>
+    </File>
+    <File Include="Content/assets/css/animate.css">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/css/bootstrap.min.css">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/css/font-awesome.min.css">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/css/magnific-popup.css">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/css/off-canvas.css">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/css/owl.carousel.css">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/css/owl.video.play.html">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/css/responsive.css">
+      <publishTime>11/23/2022 16:17:59</publishTime>
+    </File>
+    <File Include="Content/assets/css/rs-spacing.css">
+      <publishTime>11/22/2022 16:12:26</publishTime>
+    </File>
+    <File Include="Content/assets/css/rsmenu-main.css">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/flaticon.css">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/Flaticon.eot">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/Flaticon.svg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/Flaticon.ttf">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/Flaticon.woff">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/Flaticon.woff2">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/Flaticond41d.eot">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/fontawesome-webfont3e6e.eot">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/fontawesome-webfont3e6e.svg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/fontawesome-webfont3e6e.ttf">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/fontawesome-webfont3e6e.woff">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/fontawesome-webfont3e6e.woff2">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/fontawesome-webfontd41d.eot">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/about/about-2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/about/about-3.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/about/about-4.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/about/about-5.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/about/about.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/about/about.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/about/home3/2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/about/home3/3.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/about/home3/about-1.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/about/home4/1.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/about/home4/2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/about/home4/about-1.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/about/tri-circle-1.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/achievement/achievement.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/appointment/1.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/background/shape/shape-bg.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/banner/banner2.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/banner/home_banner6.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/banner/style1/circle1.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/banner/style1/dot-rect.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/banner/style1/line1.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/banner/style1/main-banner.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/banner/style1/tri-circle1.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/about-bg.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/about-bg2.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/about-bg4.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/blog-bg.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/blog-bg3.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/choose-bg.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/choose-bg3.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/con-bg4.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/contact-bg-2.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/contact-bg-3.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/contact-bg.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/count-bg5.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/cta-bg.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/portfolio-bg.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/project-bg5.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/project-single-bg.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/project-single-bg2.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/ser-bg.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/ser-bg3.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/service-bg4.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/team-bg.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/team-bg3.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/testi-bg.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/testi-bg2.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/testi-bg3.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/bg/testi-bg4.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/blog/1.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/blog/2.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/blog/3.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/blog/4.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/blog/5.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/blog/6.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/blog/home-6/1.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/blog/home-6/2.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/blog/home-6/3.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/blog/home-6/avatar.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/blog/inner/style1/1.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/blog/inner/style1/2.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/blog/inner/style1/3.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/blog/inner/style1/4.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/blog/inner/style2/1.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/blog/inner/style2/2.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/blog/inner/style2/3.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/blue-dark.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/blue.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/breadcrumbs/inr_1.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/breadcrumbs/inr_10.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/breadcrumbs/inr_2.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/breadcrumbs/inr_3.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/breadcrumbs/inr_4.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/breadcrumbs/inr_5.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/breadcrumbs/inr_6.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/breadcrumbs/inr_7.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/breadcrumbs/inr_8.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/breadcrumbs/inr_9.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/careers/1.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/careers/2.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/careers/icons/1.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/careers/icons/2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/careers/icons/3.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/careers/icons/4.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/choose/call-us.html">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/choose/choose-2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/choose/chosse-video.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/choose/icons/1.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/choose/icons/2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/choose/icons/3.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/choose/statistics.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/close.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/contact/box-bg2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/contact/box-bg3.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/contact/computer.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/contact/con-box.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/contact/con-home3.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/contact/contact-h4.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/contact/icons/1.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/contact/icons/2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/contact/icons/3.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/contact/icons/4.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/contact/icons/5.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/contact/icons/6.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/contact/icons/7.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/contact/office.jpg">
+      <publishTime>11/23/2022 16:20:51</publishTime>
+    </File>
+    <File Include="Content/assets/images/counter/icons/1.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/counter/icons/2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/counter/icons/3.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/counter/icons/4.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/counter/icons/home5/1.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/counter/icons/home5/2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/counter/icons/home5/3.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/counter/icons/home5/4.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/estimate/estimate.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/fav.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/footer-bg.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/icons/branding.svg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/icons/clipboard.svg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/icons/content-writing.svg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/icons/data-processing.svg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/icons/head.svg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/icons/risks.svg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/logo-6.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/logo-blue.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/logo-dark.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/logo-dark2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/logo-lite.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/logo-orange-white.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/logo-orange.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/logo.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/logo_light6.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/off2.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/partner/1.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/partner/2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/partner/3.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/partner/4.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/partner/5.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/partner/6.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/partner/main-home/1.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/partner/main-home/2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/partner/main-home/3.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/partner/main-home/4.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/partner/main-home/5.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/partner/main-home/6.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/partner/main-home/7.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/pattern/pattern1.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/pattern/pattern2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/pattern/pattern3.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/pattern/pattern4.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/pattern/pattern5.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/pattern/pattern6.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/pattern/pattern7.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/pattern/pattern8.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/pattern/pattern9.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/paypal.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/pricing/style1/1.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/pricing/style1/2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/pricing/style1/3.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/process/style1/1.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/process/style1/2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/process/style1/3.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/process/style1/4.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/process/style1/steps.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/project/portfolio.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/project/pro-final.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/project/slide/1.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/project/slide/2.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/project/style1/1.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/project/style1/2.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/project/style1/3.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/project/style1/4.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/project/style1/5.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/project/style1/6.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/project/style2/1.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/project/style2/2.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/project/style2/3.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/project/style2/4.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/project/style2/5.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/project/style2/6.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/project/style2/7.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/project/style3/1.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/project/style3/2.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/project/style3/3.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/project/style3/4.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/project/style3/5.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/project/style3/6.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/project/style3/7.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/project/style3/8.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/main-home/1.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/main-home/2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/main-home/3.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/main-home/4.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/main-home/5.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/main-home/6.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/single/1.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/single/2.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/single/3.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/single/side-img.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style2/1.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style2/2.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style2/3.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style2/4.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style2/5.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style2/6.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style3/1.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style3/2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style3/3.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style3/4.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style3/5.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style3/6.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style5/1.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style5/2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style5/3.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style5/4.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style5/5.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style5/6.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style5/icons/1.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style5/icons/2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style5/icons/3.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style5/icons/4.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style6/1.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style6/2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style6/3.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style6/4.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style6/5.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style6/6.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style6/icon-box/1.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style6/icon-box/2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style6/icon-box/3.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style6/icon-box/4.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style7/1.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style7/2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style7/3.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style7/4.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style7/icons/1.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style7/icons/2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/services/style7/icons/3.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/shop/1.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/shop/2.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/shop/3.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/shop/4.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/shop/5.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/shop/6.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/shop/7.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/shop/8.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/shop/9.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/slider/h2-sl1.webp">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/slider/h2-sl2.webp">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/slider/h3-sl1.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/slider/h3-sl2.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/slider/h4-sl1.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/slider/h4-sl2.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/team/1.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/team/2.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/team/3.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/team/4.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/team/5.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/team/6.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/testimonial/1.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/testimonial/2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/testimonial/3.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/testimonial/4.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/testimonial/5.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/testimonial/avatar/1.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/testimonial/avatar/2.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/testimonial/avatar/3.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/testimonial/avatar/4.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/testimonial/quote.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/testimonial/quote2.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/testimonial/ratting.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/testimonial/test-bg.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/testimonial/testi-5.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/testimonial/testi.png">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/video/choose-video.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/images/video/faq.jpg">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/inc/custom-slider/css/nivo-slider.css">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/inc/custom-slider/css/preview.css">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/inc/custom-slider/img/arrows.html">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/inc/custom-slider/img/bullets.html">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/inc/custom-slider/img/loading.html">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/inc/custom-slider/js/jquery.nivo.slider.js">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/js/bootstrap.min.js">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/js/contact.form.js">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/js/imagesloaded.pkgd.min.js">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/js/isotope.pkgd.min.js">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/js/jquery.counterup.min.js">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/js/jquery.magnific-popup.min.js">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/js/jquery.min.js">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/js/jquery.nav.js">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/js/main.js">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/js/modernizr-2.8.3.min.js">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/js/owl.carousel.min.js">
+      <publishTime>11/21/2022 17:16:09</publishTime>
+    </File>
+    <File Include="Content/assets/js/pointer.html">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/js/skill.bars.jquery.js">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/js/waypoints.min.js">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/assets/js/wow.min.js">
+      <publishTime>11/21/2022 13:29:35</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>11/21/2022 13:19:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>11/21/2022 13:19:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>11/21/2022 13:19:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>11/21/2022 13:19:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>11/21/2022 13:19:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>11/21/2022 13:19:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>11/21/2022 13:19:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>11/21/2022 13:19:58</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>11/21/2022 13:19:54</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>11/21/2022 13:19:54</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>11/21/2022 13:19:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>11/21/2022 13:19:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>11/21/2022 13:19:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>11/21/2022 13:19:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>11/21/2022 13:19:58</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>11/21/2022 13:19:54</publishTime>
+    </File>
+    <File Include="Images/icon/1 copy.png">
+      <publishTime>11/23/2022 11:51:05</publishTime>
+    </File>
+    <File Include="Images/icon/11.png">
+      <publishTime>11/23/2022 15:18:22</publishTime>
+    </File>
+    <File Include="Images/icon/111.png">
+      <publishTime>11/23/2022 16:13:17</publishTime>
+    </File>
+    <File Include="Images/icon/2 copy.png">
+      <publishTime>11/23/2022 11:51:05</publishTime>
+    </File>
+    <File Include="Images/icon/22.png">
+      <publishTime>11/23/2022 15:18:22</publishTime>
+    </File>
+    <File Include="Images/icon/3 copy.png">
+      <publishTime>11/23/2022 11:51:05</publishTime>
+    </File>
+    <File Include="Images/icon/33.png">
+      <publishTime>11/23/2022 15:18:22</publishTime>
+    </File>
+    <File Include="Images/icon/44.png">
+      <publishTime>11/23/2022 16:13:17</publishTime>
+    </File>
+    <File Include="Images/icon/66.png">
+      <publishTime>11/23/2022 16:13:17</publishTime>
+    </File>
+    <File Include="Images/icon/Freezone.png">
+      <publishTime>11/23/2022 12:42:29</publishTime>
+    </File>
+    <File Include="Images/icon/License.png">
+      <publishTime>11/23/2022 12:42:29</publishTime>
+    </File>
+    <File Include="Images/icon/mainland.png">
+      <publishTime>11/23/2022 12:42:29</publishTime>
+    </File>
+    <File Include="Images/icon/pro.png">
+      <publishTime>11/23/2022 12:42:29</publishTime>
+    </File>
+    <File Include="Images/icon/quote2 copy.png">
+      <publishTime>11/23/2022 13:00:33</publishTime>
+    </File>
+    <File Include="Images/m1.png">
+      <publishTime>11/21/2022 17:47:13</publishTime>
+    </File>
+    <File Include="Images/milestone copy.png">
+      <publishTime>11/22/2022 12:37:49</publishTime>
+    </File>
+    <File Include="Images/Milestone-Logos_red.png">
+      <publishTime>11/21/2022 15:08:47</publishTime>
+    </File>
+    <File Include="Images/milestone1 copy.png">
+      <publishTime>11/21/2022 18:16:46</publishTime>
+    </File>
+    <File Include="Images/Milestone1_Logo.png">
+      <publishTime>11/21/2022 14:59:26</publishTime>
+    </File>
+    <File Include="Images/milestone2 copy.png">
+      <publishTime>11/21/2022 18:19:46</publishTime>
+    </File>
+    <File Include="Images/milestone3.png">
+      <publishTime>11/22/2022 12:31:24</publishTime>
+    </File>
+    <File Include="Images/Milestone_Logo.png">
+      <publishTime>11/21/2022 13:40:54</publishTime>
+    </File>
+    <File Include="Images/Milestone_logos/1.png">
+      <publishTime>11/22/2022 18:32:27</publishTime>
+    </File>
+    <File Include="Images/Milestone_logos/10.png">
+      <publishTime>11/22/2022 18:32:27</publishTime>
+    </File>
+    <File Include="Images/Milestone_logos/11.png">
+      <publishTime>11/22/2022 18:32:27</publishTime>
+    </File>
+    <File Include="Images/Milestone_logos/12.png">
+      <publishTime>11/22/2022 18:32:27</publishTime>
+    </File>
+    <File Include="Images/Milestone_logos/2.png">
+      <publishTime>11/22/2022 18:32:27</publishTime>
+    </File>
+    <File Include="Images/Milestone_logos/3.png">
+      <publishTime>11/22/2022 18:32:27</publishTime>
+    </File>
+    <File Include="Images/Milestone_logos/4.png">
+      <publishTime>11/22/2022 18:32:27</publishTime>
+    </File>
+    <File Include="Images/Milestone_logos/5.png">
+      <publishTime>11/22/2022 18:32:27</publishTime>
+    </File>
+    <File Include="Images/Milestone_logos/6.png">
+      <publishTime>11/22/2022 18:32:27</publishTime>
+    </File>
+    <File Include="Images/Milestone_logos/7.png">
+      <publishTime>11/22/2022 18:32:27</publishTime>
+    </File>
+    <File Include="Images/Milestone_logos/8.png">
+      <publishTime>11/22/2022 18:32:27</publishTime>
+    </File>
+    <File Include="Images/Milestone_logos/9.png">
+      <publishTime>11/22/2022 18:32:27</publishTime>
+    </File>
+    <File Include="Images/s1.jpg">
+      <publishTime>11/21/2022 18:24:07</publishTime>
+    </File>
+    <File Include="Images/s2.png">
+      <publishTime>11/22/2022 13:04:06</publishTime>
+    </File>
+    <File Include="Images/s4.png">
+      <publishTime>11/22/2022 13:15:23</publishTime>
+    </File>
+    <File Include="Images/s5.png">
+      <publishTime>11/22/2022 13:20:07</publishTime>
+    </File>
+    <File Include="Images/s6.png">
+      <publishTime>11/22/2022 13:54:04</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>11/21/2022 13:19:58</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>11/21/2022 13:19:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.js">
+      <publishTime>11/21/2022 13:19:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.js">
+      <publishTime>11/21/2022 13:19:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.map">
+      <publishTime>11/21/2022 13:19:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.js">
+      <publishTime>11/21/2022 13:19:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.js">
+      <publishTime>11/21/2022 13:19:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.map">
+      <publishTime>11/21/2022 13:19:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>11/21/2022 13:20:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>11/21/2022 13:20:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>11/21/2022 13:20:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>11/21/2022 13:20:03</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>11/21/2022 13:20:02</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>11/23/2022 16:18:51</publishTime>
+    </File>
+    <File Include="Views/Home/BankAssistance.cshtml">
+      <publishTime>11/23/2022 10:57:59</publishTime>
+    </File>
+    <File Include="Views/Home/BusinessLicense.cshtml">
+      <publishTime>11/22/2022 19:26:13</publishTime>
+    </File>
+    <File Include="Views/Home/BusinessSponsor.cshtml">
+      <publishTime>11/23/2022 10:56:38</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>11/23/2022 16:16:17</publishTime>
+    </File>
+    <File Include="Views/Home/Freezone.cshtml">
+      <publishTime>11/22/2022 18:19:23</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>11/23/2022 16:06:37</publishTime>
+    </File>
+    <File Include="Views/Home/MainlandSetupinDubai.cshtml">
+      <publishTime>11/22/2022 17:23:26</publishTime>
+    </File>
+    <File Include="Views/Home/ProService.cshtml">
+      <publishTime>11/23/2022 10:59:01</publishTime>
+    </File>
+    <File Include="Views/Home/Services.cshtml">
+      <publishTime>11/23/2022 11:26:18</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>11/21/2022 13:19:54</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>11/23/2022 15:56:13</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>11/21/2022 13:19:54</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>11/21/2022 13:19:54</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/23/2022 14:22:43</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,136 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+
+<!-- Breadcrumbs Start -->
+<div class="rs-breadcrumbs img8">
+    <div class="container">
+        <div class="breadcrumbs-inner">
+            <h1 class="page-title">
+                Have questions - contact us
+                <span class="watermark">Contact</span>
+            </h1>
+            @*<span class="sub-text">
+                    Excepteur sint occaecat cupidatat non proident, sunt in coulpa qui official
+                    modeserunt mollit anim id est laborum 20 years experience.
+                </span>*@
+        </div>
+    </div>
+</div>
+<!-- Breadcrumbs End -->
+<!-- Contact Section Start -->
+<div class="rs-contact contact-style2 gray-bg pt-100 pb-100 md-pt-70 md-pb-70">
+    <div class="container">
+        <div class="row margin-0">
+            <div class="col-lg-6 padding-0">
+                <div class="contact-address">
+                    <div class="sec-title mb-46">
+                        <h2 class="title pb-20">
+                            Get in touch
+                        </h2>
+                        <p class="margin-0">
+                            Objectively innovate your empowered manufactured products whereas
+                            parallel platforms for your ideas.
+                        </p>
+                    </div>
+                    <div class="address-item mb-25">
+                        <div class="address-icon">
+                            <img src="~/Images/icon/111.png" alt="Address">
+                        </div>
+                        <div class="address-text">
+                            Makeya Sharafi Building,5th Floor, Office No. 503, Khalid Bin Waleed Road, Near Sharf DG Metro Station Exit No.3, Bur Dubai,
+                            Dubai - United Arab Emirates
+                        </div>
+                    </div>
+                    <div class="address-item mb-25">
+                        <div class="address-icon">
+                            <img src="~/Images/icon/44.png" alt="Address">
+                        </div>
+                        <div class="address-text">
+                            <a href="tel:(+971)55 5761447">+971 55 5761447</a><br>
+                            <a href="tel:(+971)56 3546161">+971 56 3546161</a><br>
+                            <a href="tel:(+971)04 3303488">+971 04 3303488</a>
+                        </div>
+                    </div>
+                    <div class="address-item mb-25">
+                        <div class="address-icon">
+                            <img src="~/Images/icon/66.png" alt="Address">
+                        </div>
+                        <div class="address-text">
+                            <a href="mailto:info@milestonebusinessdubai.com">info@milestonebusinessdubai.com</a><br>
+                            <a href="mailto:milestonetyping@gmail.com">milestonetyping@gmail.com</a>
+                        </div>
+                    </div>
+                    @*<div class="address-item">
+                            <div class="address-icon">
+                                <img src="~/Content/assets/images/contact/icons/7.png" alt="Address">
+                            </div>
+                            <div class="address-text">
+                                <a href="tel:(+1245201396)">+1245201396</a><br>
+                                <a href="tel:(+2245201396)">+2245201396</a>
+                            </div>
+                        </div>*@
+                </div>
+            </div>
+            <div class="col-lg-6 padding-0">
+                <div class="contact-map">
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d163312.76529779847!2d55.42431431615349!3d25.245802998160674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f4330422bc6ab%3A0xa0a6075fb0ecf47e!2sSharafi%20Building%20-%2020th%20St%20-%20Al%20Hamriya%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1669027510373!5m2!1sen!2sin"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact Section End -->
+<!-- Contact Section Start-->
+<div class="rs-contact main-home office-modify1 pt-100 pb-100 md-pt-70 md-pb-70">
+    <div class="container">
+        <div class="row margin-0">
+            <div class="col-lg-6 padding-0 office-buliding"></div>
+            <div class="col-lg-6 padding-0">
+                <div class="contact-section contact-style2">
+                    <div class="sec-title mb-60">
+                        <h2 class="title">
+                            Contact us
+                        </h2>
+                    </div>
+                    <div class="contact-wrap">
+                        @*<div id="form-messages"></div>*@
+                        <form id="contact-form" ng-app="app" ng-controller="appController">
+                            <fieldset>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
+                                        <input class="from-control" type="text" id="Fname" ng-model="EnquiryData.Name" name="name"
+                                               placeholder="Name" required="">
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
+                                        <input class="from-control" ng-model="EnquiryData.Email" id="Email" type="email" ng-pattern="EmailExpression" name="email" placeholder="E-Mail" required="">
+                                        <span style="color:Red;font-size:12px;" ng-show="gamfrm.email.$dirty && gamfrm.email.$error.pattern">Please Enter Valid Email</span>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 mb-30">
+                                        <input class="from-control" ng-pattern="mobile_No" ng-model="EnquiryData.Mobile" type="tel" id="MobileNo" name="mobno" placeholder="Mobile Number"  required="">
+                                        <span style="color:Red; float: left;font-size:12px;" ng-show="gamfrm.mobno.$dirty&&gamfrm.mobno.$error.pattern">Mobile Number Is Invalid.</span>
+                                    </div>
+                                   
+
+                                    <div class="col-lg-12 mb-35">
+                                        <textarea class="from-control" ng-model="EnquiryData.msg" id="message" name="message" placeholder="Enter Query Here" required=""></textarea>
+                                    </div>
+                                </div>
+                                <div class="btn-part">
+                                    <div class="form-group mb-0">
+                                        <input class="readon submit" ng-click="SubmitEnquiry()" type="submit" value="Submit Now">
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact Section End -->
+
+<script src="~/Angularjs/angular.min.js"></script>
+<script src="~/Angularjs/Home.js"></script>

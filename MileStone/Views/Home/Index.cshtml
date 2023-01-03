@@ -1,0 +1,666 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<style>
+    .booktitle {
+        color: white;
+    }
+</style>
+
+
+<section>
+    <!-- Banner Section Start -->
+    <div class="rs-banner banner-home-style2">
+        <div class="container custom">
+            <div class="row y-middle">
+                <div class="col-lg-3">
+                    @*<div class="content-wrap">
+                            <span class="sub-text">Business Consulting</span>
+                            <h2 class="title">Making Your Business Idea Come True</h2>
+                            <div class="description mb-38">
+                                Facilitating client learning—that is, teaching clients how to<br>
+                                resolve similar problems in the future..
+                            </div>
+                            <div class="btn-part">
+                                <a class="readon consultant paste-btn" href="contact.html">Discover More</a>
+                            </div>
+                        </div>*@
+                </div>
+                <div class="col-lg-6  pl-53 pr-53 md-pl-15 pb-20 pt-183 md-pt-60  md-mb-100 xs-mb-70 md-pr-17">
+                    <div class="rs-contact " ng-app="app" ng-controller="appController">
+                        <div class="contact-wrap">
+                            <div class="content-part mb-30">
+                                <h2 class="title">Book Appointment</h2>
+                                <span class="booktitle">For Documents Clearing Services in Dubai</span>
+                                <div class="description">
+                                    We here to help you 24/7 with experts
+                                </div>
+                            </div>
+                            @*<div id="form-messages"></div>*@
+                            <form id="contact-form">
+                                <fieldset>
+                                    <div class="row">
+                                        <div class="col-lg-6 mb-6">
+                                            <input class="from-control" type="text" id="Fname" ng-model="EnquiryData.Name" name="name" placeholder="Name" required="">
+                                        </div>
+                                        <div class="col-lg-6 mb-6">
+                                            <input class="from-control" ng-model="EnquiryData.Email" id="Email" type="email" ng-pattern="EmailExpression" name="email" placeholder="E-Mail" required="">
+                                            <span style="color:Red;font-size:12px;" ng-show="gamfrm.email.$dirty && gamfrm.email.$error.pattern">Please Enter Valid Email</span>
+
+                                        </div>
+                                        <div class="col-lg-12 mb-6">
+                                            <input class="from-control" ng-pattern="mobile_No" ng-model="EnquiryData.Mobile" type="tel" id="MobileNo" name="mobno" placeholder="Mobile Number" required="">
+                                            <span style="color:Red; float: left;font-size:12px;" ng-show="gamfrm.mobno.$dirty&&gamfrm.mobno.$error.pattern">Mobile Number Is Invalid.</span>
+
+                                        </div>
+                                        <div class="col-lg-12 mb-6">
+                                            <textarea class="from-control" ng-model="EnquiryData.msg" id="message" name="message" placeholder="Enter Query Here" required=""></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-0">
+                                        <input class="submit-btn" type="submit" ng-click="SubmitEnquiry()" value="Book Appointment Now">
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner Section End -->
+    <!-- Services Section Start -->
+    <div class="rs-services style7 black-bg3 pt-60 pb-60">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 md-mb-30">
+                    <div class="services-item">
+                        <div class="services-icon">
+                            <img src="~/Images/icon/1 copy.png" alt="Images">
+                        </div>
+                        <div class="services-content">
+                            <h2 class="title"> Solution Focused</h2>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 md-mb-30">
+                    <div class="services-item">
+                        <div class="services-icon">
+                            <img src="~/Images/icon/2 copy.png" alt="Images">
+                        </div>
+                        <div class="services-content">
+                            <h2 class="title"> Customer Oriented</h2>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="services-item">
+                        <div class="services-icon">
+                            <img src="~/Images/icon/3 copy.png" alt="Images">
+                        </div>
+                        <div class="services-content">
+                            <h2 class="title"> 99.99% Success</h2>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services Section End -->
+    <!-- About Section Start -->
+    <div class="rs-about style2 pt-50 pb-50 md-pt-70 md-pb-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 pr-33 md-pr-15 md-mb-50">
+                    <div class="images-part">
+                        <img src="~/Content/assets/images/about/about-3.png" alt="Images">
+                    </div>
+                </div>
+                <div class="col-lg-6 ">
+                    <div class="sec-title">
+                        <h2 class="title pb-22">
+                            Welcome to Milestone Documents Clearing Services
+                        </h2>
+                        <span class="sub-text big" style="text-align:justify;">
+                            Milestone is a name that stands for excellence, commitment and providing a holistic approach to specialist business advisory since 2012. We facilitate entrepreneurs and businesses of all sizes to establish, expand and transform their business in UAE.
+                        </span>
+
+                        <p class="margin-0 pt-15" style="text-align:justify;">
+                            With a team of UAE Experienced consultants, Milestone offers reliable and comprehensive business solutions enabling entrepreneurs to establish and grow their businesses seamlessly across the board.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rs-animation">
+            <div class="animate-style">
+                <img class="scale" src="~/Content/assets/images/about/tri-circle-1.png" alt="About">
+            </div>
+        </div>
+    </div>
+    <!-- About Section End -->
+    <!-- Services Section Start -->
+    <div class="rs-services style8 bg14 pt-100 pb-100 md-pt-70 md-pb-70">
+        <div class="container">
+            <div class="row y-middle">
+                <div class="col-lg-5 pr-25 md-pr-15 md-mb-50">
+                    <div class="sec-title3">
+                        <h2 class="title pb-20">
+                            10 Years of Experience in  Documents Clearing Services.
+                        </h2>
+                        <p class="margin-0 pb-40" style="text-align: justify;">Milestone will provide you with all you need to make it fast and easy. If you’ve got queries, our experts are here to help you at every stage of the setup and after. All this at a fraction of the fee.</p>
+                        <div class="btn-part">
+                            <a class="readon consultant paste-btn more" href="/Home/Services">View All Services</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 pl-30 md-pl-15">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="flip-box-inner mb-30">
+                                <div class="flip-box-wrap">
+                                    <div class="front-part">
+                                        <div class="front-content-part">
+                                            <div class="front-icon-part">
+                                                <div class="icon-part">
+                                                    <img src="~/Images/icon/mainland.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="front-title-part">
+                                                <h3 class="title"><a href="/Home/MainlandSetupinDubai">Mainland Business Setup in Dubai</a></h3>
+                                            </div>
+                                            <div class="front-desc-part">
+                                                <p style="text-align:justify;">
+                                                    If you are ready to be an entrepreneur and start your own business in Dubai,
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="back-front">
+                                        <div class="back-front-content">
+                                            <div class="back-title-part">
+                                                <h3 class="back-title"><a href="/Home/MainlandSetupinDubai">Mainland Business Setup in Dubai</a></h3>
+                                            </div>
+                                            <div class="back-desc-part">
+                                                <p class="back-desc" style="text-align:justify;">
+                                                    If you are ready to be an entrepreneur and start your own business in Dubai,
+                                                </p>
+                                            </div>
+                                            <div class="back-btn-part">
+                                                <a class="readon view-more small" href="/Home/MainlandSetupinDubai">View More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-box-inner sm-mb-30">
+                                <div class="flip-box-wrap">
+                                    <div class="front-part">
+                                        <div class="front-content-part">
+                                            <div class="front-icon-part">
+                                                <div class="icon-part">
+                                                    <img src="~/Images/icon/License.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="front-title-part">
+                                                <h3 class="title">
+                                                    <a href="/Home/BusinessLicense">
+                                                        Business License in
+                                                        Dubai
+                                                    </a>
+                                                </h3>
+                                            </div>
+                                            <div class="front-desc-part" style="text-align:justify;">
+                                                <p>
+                                                    There are many advantages in setting up a business in Dubai and to enjoy
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="back-front">
+                                        <div class="back-front-content">
+                                            <div class="back-title-part">
+                                                <h3 class="back-title">
+                                                    <a href="/Home/BusinessLicense">
+                                                        Business License in Dubai
+                                                    </a>
+                                                </h3>
+                                            </div>
+                                            <div class="back-desc-part">
+                                                <p class="back-desc" style="text-align:justify;">  There are many advantages in setting up a business in Dubai and to enjoy.</p>
+                                            </div>
+                                            <div class="back-btn-part">
+                                                <a class="readon view-more small" href="/Home/BusinessLicense">View More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 mt-30 md-mt-0">
+                            <div class="flip-box-inner mb-30">
+                                <div class="flip-box-wrap">
+                                    <div class="front-part">
+                                        <div class="front-content-part">
+                                            <div class="front-icon-part">
+                                                <div class="icon-part">
+                                                    <img src="~/Images/icon/Freezone.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="front-title-part">
+                                                <h3 class="title"><a href="/Home/Freezone">Freezone Company Formation in Dubai</a></h3>
+                                            </div>
+                                            <div class="front-desc-part" style="text-align:justify;">
+                                                <p>
+                                                    Free zones are also known as free trade zones,
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="back-front">
+                                        <div class="back-front-content">
+                                            <div class="back-title-part">
+                                                <h3 class="back-title"><a href="/Home/Freezone">Freezone Company Formation in Dubai</a></h3>
+                                            </div>
+                                            <div class="back-desc-part">
+                                                <p class="back-desc" style="text-align:justify;">Free zones are also known as free trade zones, which allows international business and provides 100% ownership.</p>
+                                            </div>
+                                            <div class="back-btn-part">
+                                                <a class="readon view-more small" href="/Home/Freezone">View More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-box-inner">
+                                <div class="flip-box-wrap">
+                                    <div class="front-part">
+                                        <div class="front-content-part">
+                                            <div class="front-icon-part">
+                                                <div class="icon-part">
+                                                    <img src="~/Images/icon/pro.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="front-title-part">
+                                                <h3 class="title"><a href="/Home/ProService">Pro Services in Dubai</a></h3>
+                                            </div>
+                                            <div class="front-desc-part">
+                                                <p style="text-align:justify;">
+                                                    UAE is quite possibly the most invertor backer location to begin a business,
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="back-front">
+                                        <div class="back-front-content">
+                                            <div class="back-title-part">
+                                                <h3 class="back-title"><a href="/Home/ProService">Pro Services in Dubai</a></h3>
+                                            </div>
+                                            <div class="back-desc-part">
+                                                <p class="back-desc" style="text-align:justify;">UAE is quite possibly the most invertor backer location to begin a business, </p>
+                                            </div>
+                                            <div class="back-btn-part">
+                                                <a class="readon view-more small" href="/Home/ProService">View More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services Section End -->
+    <!-- Counter Section Start -->
+    @*<div class="rs-counter style1 counter-home5-style bg25 pt-100 pb-100 md-pt-70 md-pb-70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 md-mb-30">
+                        <div class="counter-area">
+                            <div class="counter-list mb-25">
+                                <div class="counter-icon">
+                                    <img src="~/Content/assets/images/counter/icons/home5/1.png" alt="Counter">
+                                </div>
+                                <div class="counter-number">
+                                    <span class="rs-count">582</span>
+                                </div>
+                            </div>
+                            <div class="content-part">
+                                <h5 class="title">Projects completed for our respected clients.</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 md-mb-30">
+                        <div class="counter-area">
+                            <div class="counter-list mb-25">
+                                <div class="counter-icon">
+                                    <img src="~/Content/assets/images/counter/icons/home5/2.png" alt="Counter">
+                                </div>
+                                <div class="counter-number">
+                                    <span class="rs-count">215</span>
+                                    <span class="prefix">+</span>
+                                </div>
+                            </div>
+                            <div class="content-part">
+                                <h5 class="title">Experienced people serving to clients .</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 sm-mb-30">
+                        <div class="counter-area">
+                            <div class="counter-list mb-25">
+                                <div class="counter-icon">
+                                    <img src="~/Content/assets/images/counter/icons/home5/3.png" alt="Counter">
+                                </div>
+                                <div class="counter-number">
+                                    <span class="rs-count">25</span>
+                                    <span class="prefix">+</span>
+                                </div>
+                            </div>
+                            <div class="content-part">
+                                <h5 class="title">Years experience in business & consulting.</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="counter-area">
+                            <div class="counter-list mb-25">
+                                <div class="counter-icon">
+                                    <img src="~/Content/assets/images/counter/icons/home5/4.png" alt="Counter">
+                                </div>
+                                <div class="counter-number">
+                                    <span class="rs-count">70</span>
+                                    <span class="prefix">+</span>
+                                </div>
+                            </div>
+                            <div class="content-part">
+                                <h5 class="title">Business & consulting awards won world.</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>*@
+    <!-- Counter Section End -->
+    <!-- Testimonial Section Start -->
+    <div class="rs-testimonial home5-testi-style pt-100 pb-100 md-pt-70 md-pb-70">
+        <div class="container">
+            <div class="row y-middle">
+                <div class="col-lg-6 padding-0 md-mb-40">
+                    <div class="testi-image">
+                        <img src="~/Content/assets/images/testimonial/testi-5.jpg" alt="Testimonial">
+                    </div>
+                </div>
+                <div class="col-lg-6 padding-0">
+                    <div class="testi-box-style">
+                        <div class="rs-carousel owl-carousel"
+                             data-loop="true"
+                             data-items="1"
+                             data-margin="30"
+                             data-autoplay="false"
+                             data-hoverpause="true"
+                             data-autoplay-timeout="5000"
+                             data-smart-speed="800"
+                             data-dots="false"
+                             data-nav="false"
+                             data-nav-speed="false"
+                             data-md-device="1"
+                             data-md-device-nav="false"
+                             data-md-device-dots="true"
+                             data-center-mode="false"
+                             data-ipad-device2="1"
+                             data-ipad-device-nav2="false"
+                             data-ipad-device-dots2="true"
+                             data-ipad-device="1"
+                             data-ipad-device-nav="false"
+                             data-ipad-device-dots="true"
+                             data-mobile-device="1"
+                             data-mobile-device-nav="false"
+                             data-mobile-device-dots="true">
+                            <div class="testi-item">
+                                <div class="item-content">
+                                    <span class="icon-img">
+                                        <img src="~/Images/icon/quote2 copy.png" alt="">
+                                    </span>
+                                    <p class="desc">
+                                        “The best service! I've been a client of “Milestone Documents Clearing Services” for many years, they have been available to calls, emails and on social media and always willing to go that extra mile to accommodate me and very swift and organized in the craft."
+                                    </p>
+                                </div>
+                                <div class="testi-content">
+                                    <div class="image-wrap">
+                                        @*<img src="assets/images/testimonial/avatar/1.jpg" alt="Testimonial">*@
+                                    </div>
+                                    <div class="testi-information">
+                                        <div class="testi-name">S G C SHIPPING SERVICE LLC</div>
+                                        @*<span class="testi-title">Envato User</span>*@
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testi-item">
+                                <div class="item-content">
+                                    <span class="icon-img">
+                                        <img src="~/Images/icon/quote2 copy.png" alt="">
+                                    </span>
+                                    <p class="desc">
+                                        "I am very much impressed with the professional and quick services of Milestone Documents Clearing Services. They provided advice and guidance at every stages of company formation. They provide affordable solutions with excellent customer services. "
+                                    </p>
+                                </div>
+                                <div class="testi-content">
+                                    <div class="image-wrap">
+                                        @*<img src="~/Content/assets/images/testimonial/avatar/2.jpg" alt="Testimonial">*@
+                                    </div>
+                                    <div class="testi-information">
+                                        <div class="testi-name">EXPERT HOME REALSTATE</div>
+                                        @*<span class="testi-title">Envato Advisor</span>*@
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testi-item">
+                                <div class="item-content">
+                                    <span class="icon-img">
+                                        <img src="~/Images/icon/quote2 copy.png" alt="">
+                                    </span>
+                                    <p class="desc">
+                                        "I have met Milestone Documents Clearing Services. Even if it took me a while to decide because of my past experiences, this company has a team of professionals always followed up. Since I have started to work with them, everything is structured."
+                                    </p>
+                                </div>
+                                <div class="testi-content">
+                                    <div class="image-wrap">
+                                        @*<img src="assets/images/testimonial/avatar/3.jpg" alt="Testimonial">*@
+                                    </div>
+                                    <div class="testi-information">
+                                        <div class="testi-name">
+                                            YOUR CHOICE TOURISAM LLC
+                                        </div>
+                                        @*<span class="testi-title">Senior CEO</span>*@
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testi-item">
+                                <div class="item-content">
+                                    <span class="icon-img">
+                                        <img src="~/Images/icon/quote2 copy.png" alt="">
+                                    </span>
+                                    <p class="desc">
+                                        “The incorporation process regarding our company was a walk in the park due to your unceasing labor and your struggle to make the process as convenient as possible for us. We really appreciate your hard work and your patience with us even though this is our first company and we were clueless regarding what’s the best way to go.”
+                                    </p>
+                                </div>
+                                <div class="testi-content">
+                                    <div class="image-wrap">
+                                        @*<img src="assets/images/testimonial/avatar/3.jpg" alt="Testimonial">*@
+                                    </div>
+                                    <div class="testi-information">
+                                        <div class="testi-name">
+                                            ATLAS PACIFIC GENERAL TRADING LLC
+                                        </div>
+                                        @*<span class="testi-title">Senior CEO</span>*@
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testi-item">
+                                <div class="item-content">
+                                    <span class="icon-img">
+                                        <img src="~/Images/icon/quote2 copy.png" alt="">
+                                    </span>
+                                    <p class="desc">
+                                        “There is a lot of work to do and we are glad and appreciate your labor of love in expediting the registration of our company. In what you have done we have secured a license to harvest our hard earned labor. There is no better way to prove Excellency of service which Milestone represents and we thank you and sincerely look forward to a fruitful and rewarding business relationship in the future.”
+                                    </p>
+                                </div>
+                                <div class="testi-content">
+                                    <div class="image-wrap">
+                                        @*<img src="assets/images/testimonial/avatar/3.jpg" alt="Testimonial">*@
+                                    </div>
+                                    <div class="testi-information">
+                                        <div class="testi-name">
+                                            BLUR STAR TOURISAM
+                                        </div>
+                                        @*<span class="testi-title">Senior CEO</span>*@
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testi-item">
+                                <div class="item-content">
+                                    <span class="icon-img">
+                                        <img src="~/Images/icon/quote2 copy.png" alt="">
+                                    </span>
+                                    <p class="desc">
+                                        "I would like to extend my sincere gratitude for Milestone’s patience in understanding my Registered Trademark needs, for their advice and for filing my application with various government entities. The entire team was extremely knowledgeable, helpful and professional. So again thank you."
+                                    </p>
+                                </div>
+                                <div class="testi-content">
+                                    <div class="image-wrap">
+                                        @*<img src="assets/images/testimonial/avatar/3.jpg" alt="Testimonial">*@
+                                    </div>
+                                    <div class="testi-information">
+                                        <div class="testi-name">
+                                            EXPRESS WORLD SHIPPING
+                                        </div>
+                                        @*<span class="testi-title">Senior CEO</span>*@
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Partner Section Start -->
+        <div class="rs-patter-section style1 pt-75">
+            <div class="title pl-100 md-pl-60"><h5>Our Government Public Relations- strong ties to process everything quickly.</h5></div>
+            <div class="container custom">
+                <div class="rs-carousel owl-carousel"
+                     data-loop="true"
+                     data-items="5"
+                     data-margin="30"
+                     data-autoplay="true"
+                     data-hoverpause="true"
+                     data-autoplay-timeout="5000"
+                     data-smart-speed="800"
+                     data-dots="false"
+                     data-nav="false"
+                     data-nav-speed="false"
+                     data-md-device="5"
+                     data-md-device-nav="false"
+                     data-md-device-dots="false"
+                     data-center-mode="false"
+                     data-ipad-device2="3"
+                     data-ipad-device-nav2="false"
+                     data-ipad-device-dots2="false"
+                     data-ipad-device="3"
+                     data-ipad-device-nav="false"
+                     data-ipad-device-dots="false"
+                     data-mobile-device="2"
+                     data-mobile-device-nav="false"
+                     data-mobile-device-dots="false">
+                    <div class="logo-img">
+                        <a href="#">
+                            <img class="hovers-logos rs-grid-img" src="~/Images/Milestone_logos/1.png" title="" alt="">
+                            <img class="mains-logos rs-grid-img " src="~/Images/Milestone_logos/1.png" title="" alt="">
+                        </a>
+                    </div>
+                    <div class="logo-img">
+                        <a href="#">
+                            <img class="hovers-logos rs-grid-img" src="~/Images/Milestone_logos/2.png" title="" alt="">
+                            <img class="mains-logos rs-grid-img " src="~/Images/Milestone_logos/2.png" title="" alt="">
+                        </a>
+                    </div>
+                    <div class="logo-img">
+                        <a href="#">
+                            <img class="hovers-logos rs-grid-img" src="~/Images/Milestone_logos/3.png" title="" alt="">
+                            <img class="mains-logos rs-grid-img " src="~/Images/Milestone_logos/3.png" title="" alt="">
+                        </a>
+                    </div>
+                    <div class="logo-img">
+                        <a href="#">
+                            <img class="hovers-logos rs-grid-img" src="~/Images/Milestone_logos/4.png" title="" alt="">
+                            <img class="mains-logos rs-grid-img " src="~/Images/Milestone_logos/4.png" title="" alt="">
+                        </a>
+                    </div>
+                    <div class="logo-img">
+                        <a href="#">
+                            <img class="hovers-logos rs-grid-img" src="~/Images/Milestone_logos/5.png" title="" alt="">
+                            <img class="mains-logos rs-grid-img " src="~/Images/Milestone_logos/5.png" title="" alt="">
+                        </a>
+                    </div>
+
+                    <div class="logo-img">
+                        <a href="#">
+                            <img class="hovers-logos rs-grid-img" src="~/Images/Milestone_logos/6.png" title="" alt="">
+                            <img class="mains-logos rs-grid-img " src="~/Images/Milestone_logos/6.png" title="" alt="">
+                        </a>
+                    </div>
+                    <div class="logo-img">
+                        <a href="#">
+                            <img class="hovers-logos rs-grid-img" src="~/Images/Milestone_logos/7.png" title="" alt="">
+                            <img class="mains-logos rs-grid-img " src="~/Images/Milestone_logos/7.png" title="" alt="">
+                        </a>
+                    </div>
+                    <div class="logo-img">
+                        <a href="#">
+                            <img class="hovers-logos rs-grid-img" src="~/Images/Milestone_logos/8.png" title="" alt="">
+                            <img class="mains-logos rs-grid-img " src="~/Images/Milestone_logos/8.png" title="" alt="">
+                        </a>
+                    </div>
+                    <div class="logo-img">
+                        <a href="#">
+                            <img class="hovers-logos rs-grid-img" src="~/Images/Milestone_logos/9.png" title="" alt="">
+                            <img class="mains-logos rs-grid-img " src="~/Images/Milestone_logos/9.png" title="" alt="">
+                        </a>
+                    </div>
+                    <div class="logo-img">
+                        <a href="#">
+                            <img class="hovers-logos rs-grid-img" src="~/Images/Milestone_logos/10.png" title="" alt="">
+                            <img class="mains-logos rs-grid-img " src="~/Images/Milestone_logos/10.png" title="" alt="">
+                        </a>
+                    </div>
+
+                    <div class="logo-img">
+                        <a href="#">
+                            <img class="hovers-logos rs-grid-img" src="~/Images/Milestone_logos/11.png" title="" alt="">
+                            <img class="mains-logos rs-grid-img " src="~/Images/Milestone_logos/11.png" title="" alt="">
+                        </a>
+                    </div>
+                    <div class="logo-img">
+                        <a href="#">
+                            <img class="hovers-logos rs-grid-img" src="~/Images/Milestone_logos/12.png" title="" alt="">
+                            <img class="mains-logos rs-grid-img " src="~/Images/Milestone_logos/12.png" title="" alt="">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Partner Section End -->
+    </div>
+    <!-- Testimonial Section End -->
+
+</section>
+<script src="~/Angularjs/angular.min.js"></script>
+<script src="~/Angularjs/Home.js"></script>
